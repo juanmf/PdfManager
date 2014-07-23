@@ -1,0 +1,22 @@
+{
+    "name": "docdigital/pdf-manager",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["PDF"],
+    "description": "Pdf Management component to merge, split PDFs",
+    "autoload": {
+        "psr-0": { "DocDigital\\Lib\\PdfManager\\": "" }
+    },
+    "target-dir": "DocDigital/Lib/PdfManager",
+    "authors": [
+        {
+            "name": "Juan Manuel Fernandez",
+            "email": "juanmf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "itbz/fpdf": "1.7.2",
+        "itbz/fpdi": "1.5.2"
+    }
+}
