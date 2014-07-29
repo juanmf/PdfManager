@@ -23,7 +23,7 @@ interface Pdf
     public function getEngine();
     
     /**
-     * To accomplish engine specifics.
+     * Returns de PDF Page Count.
      * 
      * @return mixed The underlying object providing functionality
      */
